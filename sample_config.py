@@ -34,3 +34,7 @@ class Config(object):
     SESSION_NAME = os.environ.get("SESSION_NAME", "")
     # database uri (mongodb)
     DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    # Update channel for Force Subscribe
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
+    # Log channel for banning spammers
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-100"))
