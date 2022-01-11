@@ -1,10 +1,38 @@
 class Translation(object):
-    START_TEXT = """Hi {},
-I'm URL X Uploader!
-You can upload HTTP/HTTPS direct link, Using this bot!
+    START_TEXT = """
+Hello,
 
-/help for more details!"""
-    FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
+I am Telegram URL Upload Bot! Created by @shreevish
+
+Please send me any direct download URL Link, i can upload to telegram as File/Video
+
+🚨 . . . Note : its support almost all direct Url's except torrent link & some links . . . 🚨
+ 
+🚨 PRON video🔞 Links gives you PERMANENT BAN 🚨
+
+┈┈┈••💙✿❤️✿💚••┈┈┈
+       
+URL-UPLOADER bot created by @shreevish
+
+➼/start = To Check whether the bot is alive or not
+➼/help = To Know how to use me! 
+➼/about = To know what am I !
+
+⚠️Note :- Join My Channel before paste the link"""
+    FORMAT_SELECTION = """📭 𝗦𝗲𝗹𝗲𝗰𝘁 𝗔𝗻𝗱 𝗖𝗵𝗼𝘀𝗲 𝗬𝗼𝘂𝗿 𝗙𝗼𝗿𝗺𝗮𝘁👇
+    
+
+🎞️ 𝗩𝗜𝗗𝗘𝗢 = Upload as Streamble.
+
+📂 𝗙𝗜𝗟𝗘 = Upload as File.
+
+•••••••••••••••••••
+
+➼/delthum = To Delet thumbnail
+
+➼pLease send photo to save Thumblail before you press any Below Button
+
+👲Powered By: @All_Movie_Rockers."""
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
     DOWNLOAD_START = "📥Downloading..."
@@ -16,17 +44,28 @@ URL | filename | username | password"""
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     CUSTOM_CAPTION_UL_FILE = "{}"
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
-    HELP_USER = """How to Use Me? Follow These steps!
-    
-1. Send url (example.domain/File.mp4 | New Filename.mp4).
-2. Send Image As Custom Thumbnail (Optional).
-3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File (video) as file with Screenshots
-   Video  - Give File as video without Screenshots
-   File   - Give File without Screenshots
+    HELP_USER = """
+<b>1.<u>Link to Media or File</u></b>
+➠ Send a link for upload to telegram file or media.
 
-If bot didn't respond, contact @Sources_Codes"""
+<b>2.<u>Set Thumbnail</u></b>
+➠ Send a photo to make it as permanent thumbnail.
+
+<b>3.<u>To download</u></b>
+Select the button.
+   🎞SVideo🎞 - Give File as video with Screenshots
+   🗂️DFile🗂️  - Give File with Screenshots
+   🎞Video🎞  - Give File as video without Screenshots
+   🗂️DFile🗂️  - Give File without Screenshots
+   
+<b><u>Deleting Thumbnail</u></b>
+➠ Send /delthumb to deleting thumbnail.
+
+<b><u>Show Thumbnail</u></b>
+➠ Send /showthumb to view custom thumbnail.
+
+Made by @shreevish
+"""
     REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Reply /generatecustomthumbnail to a media album, to generate custom thumbail"
     ERR_ONLY_TWO_MEDIA_IN_ALBUM = """Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
 You can use /rename command after receiving file to rename it with custom thumbnail support.
